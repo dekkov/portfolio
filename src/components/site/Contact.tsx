@@ -26,7 +26,7 @@ export function Contact() {
             as="h2"
             className="font-display text-[20vw] md:text-[14vw] leading-[0.85] tracking-tight"
           >
-            Let's collab
+            Let's Connect
           </TickerText>
 
         </SectionReveal>
@@ -35,7 +35,7 @@ export function Contact() {
         <div className="grid md:grid-cols-2 gap-16 mt-16">
           <SectionReveal delay={0.1}>
             <p className="text-lg opacity-80 mb-8">
-              Tell me about your project. I'll reply as soon as I can.
+              I love to talk and work on open source projects, feel free to send me an email or connect with me through LinkedIn.
             </p>
 
             <form onSubmit={onSubmit} className="space-y-6">

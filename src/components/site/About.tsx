@@ -7,10 +7,10 @@ const stats = [
 ];
 
 const experience = [
-  { role: "Software Engineer", org: "Independent · Seattle", years: "2025 — Present" },
-  { role: "Open Source Contributor", org: "FaaSr", years: "2024 — Present" },
-  { role: "Research Assistant", org: "University of Missouri", years: "2023 — 24" },
-  { role: "BSc Computer Science", org: "University of Missouri", years: "2021 — 25" },
+  { role: "Founding Software Engineer", org: "Clicr", years: "Feb 2026 — Apr 2026" },
+  { role: "Software Developer", org: "OSU's Center for Applied Systems and Software", years: "Feb 2025 — Mar 2026" },
+  { role: "Undergraduate Research Assistant", org: "OSU's College of Engineering", years: "Jun 2024 — Sep 2024" },
+  { role: "Undergraduate Teaching Assistant", org: "OSU's College of Engineering", years: "Mar 2023 — Jun 2023" },
 ];
 
 export function About() {
