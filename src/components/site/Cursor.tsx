@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useReducedMotion } from "motion/react";
-import jettCursor from "@/assets/jett.jpg";
+import kunaiCursor from "@/assets/kunai.png";
 
 export function Cursor() {
   const reduce = useReducedMotion();
@@ -37,7 +37,7 @@ export function Cursor() {
   return (
     <img
       ref={dotRef}
-      src={jettCursor}
+      src={kunaiCursor}
       alt=""
       draggable={false}
       className="pointer-events-none fixed top-0 left-0 z-[80] w-10 h-10 object-contain select-none"
