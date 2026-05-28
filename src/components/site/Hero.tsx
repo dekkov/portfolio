@@ -91,7 +91,7 @@ export function Hero() {
           </div>
           <div>
             <div className="label opacity-60 mb-2">Education</div>
-            <div className="text-sm">University of Missouri</div>
+            <div className="text-sm">Oregon State University</div>
             <div className="text-sm opacity-70">BSc Computer Science</div>
           </div>
           <div>
