@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import { useReducedMotion } from "motion/react";
+import jettCursor from "@/assets/jett.jpg";
 
 export function Cursor() {
   const reduce = useReducedMotion();
   const [enabled, setEnabled] = useState(false);
-  const dotRef = useRef<HTMLDivElement>(null);
+  const dotRef = useRef<HTMLImageElement>(null);
 
   useEffect(() => {
     if (reduce) return;
@@ -34,9 +35,12 @@ export function Cursor() {
   if (!enabled) return null;
 
   return (
-    <div
+    <img
       ref={dotRef}
-      className="pointer-events-none fixed top-0 left-0 z-[80] w-1.5 h-1.5 rounded-full bg-foreground"
+      src={jettCursor}
+      alt=""
+      draggable={false}
+      className="pointer-events-none fixed top-0 left-0 z-[80] w-10 h-10 object-contain select-none"
       aria-hidden
     />
   );
