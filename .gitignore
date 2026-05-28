@@ -33,3 +33,6 @@ dist-ssr
 
 # Claude harness
 .claude/
+
+# Windows/WSL alternate streams
+*:Zone.Identifier
