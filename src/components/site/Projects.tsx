@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useTransform, useReducedMotion } from "motion/react";
 import { TickerText } from "./TickerText";
-import faasrImg from "@/assets/faasr.jpg";
-import prosperityImg from "@/assets/prosperity-academy.png";
-import portlandImg from "@/assets/portland-internal-monologue.png";
-import bgaImg from "@/assets/Love_Letter_box_cover.jpg";
+import faasrImg from "@/assets/faasr.png";
+import imcImg from "@/assets/imc.png";
+import monologueImg from "@/assets/monologue.png";
+import citedImg from "@/assets/Cited.png";
 
 const projects = [
   {
@@ -21,7 +21,7 @@ const projects = [
     tag: "Web · Edu",
     client: "Next.js · TypeScript · Tailwind",
     href: "https://prosperity-academy.vercel.app/",
-    img: prosperityImg,
+    img: imcImg,
   },
   {
     n: "03",
@@ -29,15 +29,15 @@ const projects = [
     tag: "3D · Hackathon Winner",
     client: "React · TypeScript · Vite",
     href: "https://claude-x-portland.vercel.app/",
-    img: portlandImg,
+    img: monologueImg,
   },
   {
     n: "04",
-    title: "Board Game Platform",
-    tag: "Product",
-    client: "React · Supabase · Cloudflare Workers",
-    href: "https://bga.trhoang220703.workers.dev/",
-    img: bgaImg,
+    title: "Cited",
+    tag: "Web",
+    client: "TBD",
+    href: "#",
+    img: citedImg,
   },
 ];
 
