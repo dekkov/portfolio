@@ -20,7 +20,7 @@ export function Hero() {
             className="flex flex-wrap items-center gap-x-6 gap-y-2 mb-12 md:mb-20"
           >
             <span className="label flex items-center gap-2">
-              <span className="inline-block w-1.5 h-1.5 rounded-full bg-foreground animate-pulse" />
+              <span className="inline-block w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
               Available · June 2026
             </span>
             <span className="label opacity-60">Software Engineer · Full-Stack & AI</span>
