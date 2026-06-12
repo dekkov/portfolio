@@ -14,6 +14,7 @@ const projects = [
     client: "Next.js · TypeScript",
     href: "https://cited-demo.vercel.app/",
     img: citedImg,
+    status: "In development",
   },
   {
     n: "02",
@@ -118,6 +119,7 @@ function Card({
   client,
   href,
   img,
+  status,
 }: {
   n: string;
   title: string;
@@ -125,6 +127,7 @@ function Card({
   client: string;
   href: string;
   img: string;
+  status?: string;
 }) {
   return (
     <a
@@ -145,6 +148,12 @@ function Card({
         <div className="absolute top-4 right-4 label opacity-80 text-background mix-blend-difference">
           {n}
         </div>
+        {status && (
+          <div className="absolute bottom-4 left-4 label flex items-center gap-1.5 bg-background/70 backdrop-blur px-2 py-1 rounded">
+            <span className="inline-block w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
+            {status}
+          </div>
+        )}
         <div className="absolute bottom-4 right-4 label bg-foreground text-background px-3 py-1.5 rounded-full opacity-0 group-hover:opacity-100 transition translate-y-1 group-hover:translate-y-0">
           View project ↗
         </div>
