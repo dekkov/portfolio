@@ -3,7 +3,6 @@ import { motion } from "motion/react";
 const links = [
   { href: "#about", label: "About" },
   { href: "#projects", label: "Projects" },
-  { href: "#faq", label: "FAQ" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -16,7 +15,9 @@ export function Nav() {
       className="fixed top-0 left-0 right-0 z-40 px-6 md:px-10 py-5"
     >
       <div className="flex items-center justify-between gap-6">
-        <a href="#top" className="label">Hoang Tran</a>
+        <a href="#top" className="label">
+          Hoang Tran
+        </a>
         <nav className="hidden md:flex items-center gap-7">
           {links.map((l) => (
             <a

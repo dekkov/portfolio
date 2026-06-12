@@ -9,6 +9,14 @@ import citedImg from "@/assets/Cited.png";
 const projects = [
   {
     n: "01",
+    title: "Cited",
+    tag: "Web · Health",
+    client: "Next.js · TypeScript",
+    href: "https://cited-demo.vercel.app/",
+    img: citedImg,
+  },
+  {
+    n: "02",
     title: "FaaSr",
     tag: "Serverless · OSS",
     client: "Python · R · AWS Lambda",
@@ -16,7 +24,7 @@ const projects = [
     img: faasrImg,
   },
   {
-    n: "02",
+    n: "03",
     title: "Prosperity Trading Academy",
     tag: "Web · Edu",
     client: "Next.js · TypeScript · Tailwind",
@@ -24,20 +32,12 @@ const projects = [
     img: imcImg,
   },
   {
-    n: "03",
+    n: "04",
     title: "Portland Internal Monologue",
     tag: "3D · Hackathon Winner",
     client: "React · TypeScript · Vite",
     href: "https://claude-x-portland.vercel.app/",
     img: monologueImg,
-  },
-  {
-    n: "04",
-    title: "Cited",
-    tag: "Web",
-    client: "TBD",
-    href: "#",
-    img: citedImg,
   },
 ];
 

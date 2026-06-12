@@ -22,7 +22,7 @@ export function Footer() {
 
       <div className="max-w-7xl mx-auto mt-6 flex items-center justify-between label opacity-50">
         <span>Full-Stack · AI · Serverless</span>
-        <span>Made with care</span>
+        <span>Dekkov</span>
       </div>
     </footer>
   );

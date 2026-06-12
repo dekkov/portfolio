@@ -6,13 +6,11 @@ import { Nav } from "@/components/site/Nav";
 import { Hero } from "@/components/site/Hero";
 import { About } from "@/components/site/About";
 import { Projects } from "@/components/site/Projects";
-import { FAQ } from "@/components/site/FAQ";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 import { Loader } from "@/components/site/Loader";
 import { FluidLayer } from "@/components/site/FluidLayer";
 import { Cursor } from "@/components/site/Cursor";
-
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -48,7 +46,6 @@ function Index() {
         <Hero />
         <About />
         <Projects />
-        <FAQ />
         <Contact />
       </main>
       <Footer />

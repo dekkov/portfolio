@@ -1,11 +1,5 @@
 import { SectionReveal } from "./SectionReveal";
 
-const stats = [
-  { n: "10+", label: "Projects shipped" },
-  { n: "3+", label: "Years building" },
-  { n: "1", label: "Hackathon win" },
-];
-
 const experience = [
   { role: "Founding Software Engineer", org: "Clicr", years: "Feb 2026 — Apr 2026" },
   { role: "Software Developer", org: "OSU's Center for Applied Systems and Software", years: "Feb 2025 — Mar 2026" },
@@ -21,26 +15,16 @@ export function About() {
           01 — Who I am
         </SectionReveal>
 
-        <div className="grid md:grid-cols-12 gap-10">
-          <SectionReveal className="md:col-span-8" delay={0.05}>
-            <p className="font-display text-3xl md:text-5xl leading-[1.1] tracking-tight">
-              I am a software engineer based in Seattle, shipping interactive
-              products across
-              <em className="italic"> full-stack, AI, and serverless </em>
-              — open-source contributor, hackathon winner, and a chill guy who
-              builds things that feel as good as they look.
-            </p>
-          </SectionReveal>
-
-          <SectionReveal className="md:col-span-4 space-y-8" delay={0.15}>
-            {stats.map((s) => (
-              <div key={s.label} className="flex items-baseline gap-4">
-                <div className="font-display text-6xl">{s.n}</div>
-                <div className="label opacity-60">{s.label}</div>
-              </div>
-            ))}
-          </SectionReveal>
-        </div>
+        <SectionReveal delay={0.05}>
+          <p className="font-display text-3xl md:text-5xl leading-[1.1] tracking-tight max-w-5xl">
+            I am endlessly curious — I dive into everything from
+            <em className="italic"> competitive programming, web3, AI tooling, and
+            reinforcement learning </em>
+            to whatever sparks my interest next. I haven't mastered any single one,
+            and I love that: every experiment makes me a sharper, more versatile
+            builder.
+          </p>
+        </SectionReveal>
 
         <SectionReveal className="mt-24" delay={0.1}>
           <div className="label opacity-60 mb-6">Experience</div>
